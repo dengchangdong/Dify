@@ -22,7 +22,7 @@ env:
 jobs:
   build:
     runs-on: ${{ matrix.platform == 'linux/arm64' && 'arm64_runner' || 'ubuntu-latest' }}
-    if: github.repository == 'langgenius/dify'
+    if: github.repository == 'dengchangdong/Dify'
     strategy:
       matrix:
         include:
